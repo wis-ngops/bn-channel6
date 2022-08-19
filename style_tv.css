@@ -1,0 +1,81 @@
+body{
+    background-color: #e2e2e2;
+  }
+  
+  @font-face {
+    font-family: Gotham-Black;
+    src: url(font/Gotham-Black.otf);
+  }
+  
+  @font-face {
+    font-family: Gotham-Medium;
+    src: url(font/GothamMedium.ttf);
+  }
+  
+  @font-face {
+    font-family: Gotham-Light;
+    src: url(font/Gotham-Light.otf);
+  }
+  
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    color: #000000;
+    border-radius: 2px;
+}
+
+@media (min-width : 992px) {
+    #livelogo{
+      visibility: hidden;
+      display: none;
+    }
+    
+    .offcanvas {
+      visibility      : visible;
+      position        : relative;
+      background      : none;
+      border          : none;
+      justify-content : end;
+    }
+  }
+  @media (max-width : 992px) {
+    .offcanvas {
+      width : 250px !important;
+    }
+    .offcanvas-start-lg {
+      top          : 0;
+      left         : 0;
+      border-right : 1px solid rgba(0, 0, 0, .2);
+      transform    : translateX(-100%);
+    }
+  }
+  
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+ }
+
+  
+.card:hover {
+    transform: scale(1.02);
+}
+ 
+
+.owl-prev{
+    left: -30px;
+}
+
+.owl-next{
+    right: -30px;
+}
+
+.owl-prev, .owl-next{
+    position:absolute;
+    top: 80px;
+}
+
+.owl-prev span, .owl-next span{
+    font-size: 50px;
+    color: #000000;
+}
+
