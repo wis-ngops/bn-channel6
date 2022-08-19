@@ -11,10 +11,6 @@ background-color: #e2e2e2;
 }
 
 @media (min-width : 992px) {
-  #livelogo{
-    visibility: hidden;
-    display: none;
-  }
   
   .offcanvas {
     visibility      : visible;
